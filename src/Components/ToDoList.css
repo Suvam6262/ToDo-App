@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+.heading{
+    text-align: center;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(146, 64, 223);
+}
+
+.work-section{
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-section{
+    height: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-section label{
+    width: 100%;
+    text-align: center;
+}
+
+.input-section #todo-input{
+    margin: 5px 5px;
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.input-section #btn{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.display-section{
+    padding: 15px;
+    height: 85%;
+    background-color: rgba(255, 255, 255, 0.062);
+    margin: 0px 40px 40px 40px ;
+    border-radius: 50px;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+    font-size: 1.1rem;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+.display-section ul{
+    list-style-type: none;
+}
+
+.display-section ul li{
+    padding: 2px 0px;
+}
+
+.delBtn{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(209, 3, 3);
+    cursor: pointer;
+}
+
+.delBtn strong{
+    font-weight: bold;
+}
+
+.completed {
+    text-decoration: line-through; 
+    color: rgb(56, 56, 56); 
+}
+
+/* Checkbox styles */
+input.checkbox {
+    background-color: brown;
+    color: red;
+}
